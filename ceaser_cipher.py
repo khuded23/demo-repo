@@ -4,5 +4,12 @@ alphanum = {'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4, 'f': 5, 'g': 6, 'h': 7, 'i':
 
 value = input("enter alphabet:")
 print("numerical of {} is {}".format(value, alphanum[value]))
-#adding comments to see differences
+# adding comments to see differences
 
+
+def addnum(a, b):
+    return (a+b)
+
+
+if __name__ == "__main__":
+    addnum
